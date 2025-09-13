@@ -1,7 +1,11 @@
 # MOLE-CIE
-Mixture of LoRA Experts for Continual Information Extraction with LLMs, EMNLP Findings 2025
+Hi! This is the repository for the EMNLP 2025 Findings paper: 
+
+Mixture of LoRA Experts for Continual Information Extraction with LLMs
 
 ## Requirements
+
+Please make sure you have installed the packages by following instance:
 
 ```
 conda env create -f environment.yaml
@@ -15,7 +19,7 @@ Not that we use the ACE and MAVEN datasets for ED evaluation. Due to that the AC
 
 ## Preparation
 
-Download the LLaMA3.1-8b model and put it in ./pretrain_model
+Download the [LLaMA3.1-8b model](https://huggingface.co/meta-llama/Llama-3.1-8B) and put it in ./pretrain_model
 
 ## Training and Evaluating
 
@@ -25,9 +29,12 @@ First obtain the training script.
 python script/gen_script.py
 ```
 
-Then run the resulting script to start the training process.
+Then run the resulting script to start the training and evaluation process.
 
 ```
 sh MoLE-CIE.sh
 ```
 
+## Citation
+
+We will release it soon. Thanks a lot!
