@@ -1,5 +1,5 @@
 # MOLE-CIE
-Hi! This is the repository for the EMNLP 2025 Findings paper: 
+Hi! This is the repository for the **EMNLP 2025 Findings** paper: 
 
 Mixture of LoRA Experts for Continual Information Extraction with LLMs
 
