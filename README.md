@@ -37,4 +37,19 @@ sh MoLE-CIE.sh
 
 ## Citation
 
-We will release it soon. Thanks a lot!
+If you find our paper helpful, please cite the following paper. Thanks a lot!
+
+```
+@inproceedings {wang-etal-2025-mixture,
+  author       = { Zitao Wang and Xinyi Wang and Wei Hu },
+  title        = { Mixture of {L}o{RA} Experts for Continual Information Extraction with {LLM}s },
+  booktitle    = { Findings of the Association for Computational Linguistics: EMNLP 2025 },
+  year         = 2025,
+  pages        = { 13324--13339 },
+  address      = { Suzhou, China },
+  publisher    = { Association for Computational Linguistics },
+  url          = { https://aclanthology.org/2025.findings-emnlp.718/ },
+  doi          = { 10.18653/v1/2025.findings-emnlp.718 }
+}
+```
+
